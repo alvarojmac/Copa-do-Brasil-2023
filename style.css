@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    margin-top: 30px;
+}
+
+header img {
+    max-width: 15%;
+    width: auto;
+    height: auto;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.round {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.match {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.match img {
+    max-width: 20%;
+    width: auto;
+    height: auto;
+}
+
+button {
+    padding: 8px;
+}
+
+a  {
+    text-decoration: none;
+}
+
+.team {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.score {
+    width: 50px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+}
+
